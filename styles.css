@@ -1,0 +1,93 @@
+* {
+    font-family: "Inter", sans-serif;
+  }
+  
+  body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.5s ease; /* for colour transition */
+  }
+  
+  .main-container {
+    margin: 0 auto;
+    max-width: 430px;
+  }
+  
+  .toggle-button {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .spotify-purple {
+    background-color: #30106b;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    gap: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    max-width: 70%;
+    font-weight: 300;
+  }
+  
+  .subtitle-container {
+    text-align: left;
+    margin-top: 65px;
+  }
+  
+  .section-title {
+    text-align: left;
+    padding-top: 50px;
+  }
+  
+  button {
+    background-color: #1ed760;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.15);
+  }
+  
+  .playlist {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  
+  .playlist-info {
+    text-align: left;
+    padding-left: 15px;
+    margin: 0;
+  }
+  
+  .navbar {
+    margin-top: 45px;
+  }
+  
+  .playlist-subtitle {
+    color: grey;
+  }
+  
